@@ -17,7 +17,7 @@ OS:
 
 Node version:
 
-* >= 4
+* \>= 4
 
 ### Install
 
