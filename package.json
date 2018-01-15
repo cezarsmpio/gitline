@@ -1,0 +1,9 @@
+{
+  "name": "pull-line",
+  "version": "1.0.0",
+  "description": "Manage your pull requests from your command line.",
+  "main": "index.js",
+  "repository": "https://github.com/cezarlz/pull-line",
+  "author": "Cezar Luiz <cezarluiz.c@gmail.com>",
+  "license": "MIT"
+}
