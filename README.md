@@ -15,6 +15,10 @@ OS:
 * macOS
 * Windows
 
+Node version:
+
+* >= 4
+
 ### Install
 
 ```

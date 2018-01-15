@@ -58,3 +58,5 @@ typings/
 .env
 
 .history
+
+index.prod.js
