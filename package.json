@@ -30,7 +30,7 @@
   },
   "scripts": {
     "build": "babel index.js --out-file index.prod.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "babel": {
     "presets": [
