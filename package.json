@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/cezarlz/pull-line",
   "author": "Cezar Luiz <cezarluiz.c@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "git-branch": "^1.0.0",
+    "parse-git-config": "^1.1.1"
+  }
 }
