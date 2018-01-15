@@ -1,6 +1,6 @@
 {
   "name": "gitc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Manage your pull requests and issues from your command line.",
   "main": "index.prod.js",
   "repository": "https://github.com/cezarlz/gitc",

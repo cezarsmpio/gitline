@@ -115,7 +115,7 @@ program
       return noProviderSupportedMessage();
     }
 
-    const { createPull, pull, createIssue } = provider(url);
+    const { createIssue, issues, issue } = provider(url);
 
     if (create) {
       return openUrl(createIssue(title, body));
