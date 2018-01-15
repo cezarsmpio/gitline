@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const program = require('commander');
 const currentBranchName = require('git-branch').sync();
 const parse = require('parse-git-config');
