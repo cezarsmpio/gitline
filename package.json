@@ -1,6 +1,6 @@
 {
-  "name": "gitc",
-  "version": "1.3.0",
+  "name": "gitline",
+  "version": "0.1.0",
   "description": "Manage your pull requests and issues from your command line.",
   "main": "index.prod.js",
   "keywords": [
@@ -13,7 +13,7 @@
     "node",
     "commander"
   ],
-  "repository": "https://github.com/cezarlz/gitc",
+  "repository": "https://github.com/cezarlz/gitline",
   "author": "Cezar Luiz <cezarluiz.c@gmail.com>",
   "license": "MIT",
   "dependencies": {
