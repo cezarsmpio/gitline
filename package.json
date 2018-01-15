@@ -1,6 +1,6 @@
 {
   "name": "gitline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage your pull requests and issues from your command line.",
   "main": "index.prod.js",
   "keywords": [
