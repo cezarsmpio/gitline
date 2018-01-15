@@ -1,4 +1,4 @@
-# gitc
+# gitline
 
 > A simple command-line tool to create issues and pull requests easily.
 
@@ -22,11 +22,11 @@ Node version:
 ### Install
 
 ```
-yarn add gitc --global
+yarn add gitline --global
 ```
 
 ```
-npm install --global gitc
+npm install --global gitline
 ```
 
 ### Examples
@@ -36,26 +36,26 @@ npm install --global gitc
 Go to your current branch's PR
 
 ```
-$ gitc pull
+$ gitline pull
 ```
 
 Create a new pull request using your current branch and master
 
 ```
-$ gitc pull --create
-$ gitc pull -c
+$ gitline pull --create
+$ gitline pull -c
 ```
 
 Create a new pull request using a different base branch
 
 ```
-$ gitc pull -c --base production
+$ gitline pull -c --base production
 ```
 
 Go to a specific pull request:
 
 ```
-$ gitc pull 123
+$ gitline pull 123
 ```
 
 #### Issues
@@ -63,21 +63,21 @@ $ gitc pull 123
 Read the issues:
 
 ```
-$ gitc issue
+$ gitline issue
 ```
 
 Go to a specific issue:
 
 ```
-$ gitc issue 123
-$ gitc i 123
+$ gitline issue 123
+$ gitline i 123
 ```
 
 Create an issue:
 ```
-$ gitc i -c
+$ gitline i -c
 
-$ gitc issue -c -t Your title here -b Your description
+$ gitline issue -c -t Your title here -b Your description
 ```
 
 #### Remote
@@ -85,19 +85,19 @@ $ gitc issue -c -t Your title here -b Your description
 If you want to use a different remote, usually "origin", you can pass the `-r` or `--remote` option:
 
 ```
-$ gitc pull --create --remote my-other-remote
+$ gitline pull --create --remote my-other-remote
 ```
 
-`gitc` uses your `.git/config` file to read your project's git configuration.
+`gitline` uses your `.git/config` file to read your project's git configuration.
 
 
 ### Help
 
 ```
-$ gitc --help
+$ gitline --help
 
 
-  Usage: gitc [options] [command]
+  Usage: gitline [options] [command]
 
 
   Options:
@@ -112,7 +112,7 @@ $ gitc --help
 ```
 
 ```
-$ gitc pull --help
+$ gitline pull --help
 
   Usage: pull|p [options] [number]
 
@@ -126,7 +126,7 @@ $ gitc pull --help
 ```
 
 ```
-$ gitc issue --help
+$ gitline issue --help
 
   Usage: issue|i [options] [number]
 
