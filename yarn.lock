@@ -28,6 +28,19 @@ git-config-path@^1.0.1:
     fs-exists-sync "^0.1.0"
     homedir-polyfill "^1.0.0"
 
+git-up@^2.0.0:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/git-up/-/git-up-2.0.10.tgz#20fe6bafbef4384cae253dc4f463c49a0c3bd2ec"
+  dependencies:
+    is-ssh "^1.3.0"
+    parse-url "^1.3.0"
+
+git-url-parse@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-7.0.2.tgz#75fc7ae08e5daa90edc59043cdfa8da57c5a8715"
+  dependencies:
+    git-up "^2.0.0"
+
 homedir-polyfill@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/homedir-polyfill/-/homedir-polyfill-1.0.1.tgz#4c2bbc8a758998feebf5ed68580f76d46768b4bc"
@@ -42,6 +55,22 @@ is-extendable@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
 
+is-ssh@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/is-ssh/-/is-ssh-1.3.0.tgz#ebea1169a2614da392a63740366c3ce049d8dff6"
+  dependencies:
+    protocols "^1.1.0"
+
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+
+opn@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.2.0.tgz#71fdf934d6827d676cecbea1531f95d354641225"
+  dependencies:
+    is-wsl "^1.1.0"
+
 parse-git-config@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/parse-git-config/-/parse-git-config-1.1.1.tgz#d3a9984317132f57398712bba438e129590ddf8c"
@@ -54,3 +83,14 @@ parse-git-config@^1.1.1:
 parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
+
+parse-url@^1.3.0:
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/parse-url/-/parse-url-1.3.11.tgz#57c15428ab8a892b1f43869645c711d0e144b554"
+  dependencies:
+    is-ssh "^1.3.0"
+    protocols "^1.4.0"
+
+protocols@^1.1.0, protocols@^1.4.0:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/protocols/-/protocols-1.4.6.tgz#f8bb263ea1b5fd7a7604d26b8be39bd77678bf8a"
