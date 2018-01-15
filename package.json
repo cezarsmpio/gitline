@@ -3,6 +3,16 @@
   "version": "1.3.0",
   "description": "Manage your pull requests and issues from your command line.",
   "main": "index.prod.js",
+  "keywords": [
+    "git",
+    "github",
+    "gitlab",
+    "command line",
+    "cli",
+    "cli interface",
+    "node",
+    "commander"
+  ],
   "repository": "https://github.com/cezarlz/gitc",
   "author": "Cezar Luiz <cezarluiz.c@gmail.com>",
   "license": "MIT",
